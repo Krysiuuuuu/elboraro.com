@@ -1,17 +1,13 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Log in</title>
-  </head>
-  <body>
-    <form action="/login" method="post">
-      <label for="username">Input username:</label>
-      <input type="text" id="username" name="username"><br><br>
+<head>
+  <title>Login Portal</title>
+</head>
+<body>
+  <input type="password" id="passwordInput" placeholder="Enter password">
+  <button id="loginBtn">Submit</button>
+  <div id="output"></div>
 
-      <label for="password">Input password:</label>
-      <input type="password" id="password" name="password"><br><br>
-
-      <button type="submit">Log In</button>
-    </form>
-  </body>
+  <script src="app.js"></script>
+</body>
 </html>
