@@ -1,4 +1,6 @@
-document.getElementById("loginBtn").addEventListener("click", function () {
+document.getElementById("loginForm").addEventListener("submit", function (e) {
+  e.preventDefault(); // Prevents 405 error
+
   const password = document.getElementById("passwordInput").value;
   const output = document.getElementById("output");
 
