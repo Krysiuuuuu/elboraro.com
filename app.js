@@ -16,6 +16,12 @@ document.addEventListener("DOMContentLoaded", function () {
         case ";UUNX":
           output.textContent = "Logged in (w)";
           break;
+        case "kill yourself":
+          output.textContent = "yes";
+          break;
+        case "999****":
+          output.textContent = "dulloki";
+          break;
         case "vsu6r4":
           output.textContent = "Relogged in~1n";
           break;
